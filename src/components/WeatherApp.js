@@ -1,8 +1,18 @@
 import React from 'react'
-import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
+import WeatherBox from './WeatherBox';
 
 const WeatherApp = () => {
-  return <Button variant="contained">Hello World</Button>;
+  return (
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="80vh"
+    >
+      <WeatherBox />
+    </Box>
+  );
 }
 
 export default WeatherApp;

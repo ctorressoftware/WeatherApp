@@ -1,0 +1,28 @@
+
+const WEATHER = {
+    'Sunny': 113,
+    'Partly cloudy': 116,
+    'Cloudy': 119,
+    'Overcast': 122,
+    'Mist': 143,
+    'Patchy rain possible': 176,
+    'Patchy snow possible': 179,
+    'Patchy sleet possible': 182,
+    'Patchy freezing drizzle possible': 185,
+    'Thundery outbreaks possible': 200,
+    'Blowing snow': 227,
+    'Blizzard': 230,
+    'Fog': 248,
+    'Freezing fog': 260,
+    'Patchy light drizzle': 263,
+    'Light drizzle': 266,
+    'Freezing drizzle': 281,
+    'Heavy freezing drizzle': 284,
+    'Patchy light rain': 293,
+    'Light rain': 296,
+    'Moderate rain at times': 299,
+    'Moderate rain': 302,
+    'Heavy rain at times': 305,
+    'Heavy rain': 308,
+    'Light freezing rain': 311
+}
