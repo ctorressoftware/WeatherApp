@@ -32,7 +32,7 @@ const WeatherBox = () => {
         <Box
             backgroundColor={alpha(grey[900], 0.2)}
             color={grey}
-            width='45%'
+            width='30%'
             height='50vh'
         >
             { country.name && <WeatherTitle country={country.name} /> }
