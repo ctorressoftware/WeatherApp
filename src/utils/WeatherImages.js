@@ -24,6 +24,7 @@ const WEATHER_CODE_IMAGES = {
     305: 'https://cdn2.iconfinder.com/data/icons/weather-filled-outline-3/64/weather07-512.png',
     308: 'https://cdn2.iconfinder.com/data/icons/weather-filled-outline-3/64/weather07-512.png',
     311: 'https://assets.website-files.com/5d9ba0eb5f6edb77992a99d0/5de7d426e3f495a4fd640f5c_Snowing.gif',
+    386: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Weather-rain-thunderstorm.svg/1839px-Weather-rain-thunderstorm.svg.png'
 }
 
 export default WEATHER_CODE_IMAGES;

@@ -17,10 +17,12 @@ const WeatherBox = () => {
 
         fetch(apiGetLocation).then(data => data.json())
             .then(response => {
+                console.log(response);
                 setCountry({ name: response.location.country.name, city: response.location.city });
 
                 fetch(apiGetWeather + "&query=" + response.location.country.name + ", " + response.location.city).then(data => data.json())
                 .then(response => {
+                    console.log(response);
                     setWeather(response);
                 });
 
@@ -32,8 +34,7 @@ const WeatherBox = () => {
         <Box
             backgroundColor={alpha(grey[900], 0.2)}
             color={grey}
-            width='30%'
-            height='50vh'
+            width='40%'
         >
             { country.name && <WeatherTitle country={country.name} /> }
             { weather && <WeatherContent weatherInfo={weather} /> }
